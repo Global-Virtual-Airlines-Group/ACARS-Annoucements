@@ -3,7 +3,7 @@
 Run **Actions > Refresh TTS Voices > Run workflow** to update both engines together.
 The weekly refresh runs on the default branch. Select kokoro for a manual branch refresh; both engines refresh weekly after merge.
 
-**Available voices:** 376 (322 Edge, 54 Kokoro)
+**Available voices:** 372 (318 Edge, 54 Kokoro)
 
 Set tts_engine in config.json to edge or kokoro. Role defaults are in `roles.<role>.voices.<engine>`.
 A templates.json voice override must belong to the selected engine.
@@ -72,12 +72,8 @@ Kokoro model weights: Apache-2.0. See https://huggingface.co/hexgrad/Kokoro-82M.
 | edge | de-AT-JonasNeural | Male | de-AT | Microsoft Jonas Online (Natural) - German (Austria) | Yes |
 | edge | de-CH-JanNeural | Male | de-CH | Microsoft Jan Online (Natural) - German (Switzerland) | Yes |
 | edge | de-CH-LeniNeural | Female | de-CH | Microsoft Leni Online (Natural) - German (Switzerland) | Yes |
-| edge | de-DE-AmalaNeural | Female | de-DE | Microsoft Amala Online (Natural) - German (Germany) | Yes |
-| edge | de-DE-ConradNeural | Male | de-DE | Microsoft Conrad Online (Natural) - German (Germany) | Yes |
-| edge | de-DE-FlorianMultilingualNeural | Male | de-DE | Microsoft FlorianMultilingual Online (Natural) - German (Germany) | Yes |
-| edge | de-DE-KatjaNeural | Female | de-DE | Microsoft Katja Online (Natural) - German (Germany) | Yes |
-| edge | de-DE-KillianNeural | Male | de-DE | Microsoft Killian Online (Natural) - German (Germany) | Yes |
-| edge | de-DE-SeraphinaMultilingualNeural | Female | de-DE | Microsoft SeraphinaMultilingual Online (Natural) - German (Germany) | Yes |
+| edge | de-DE-ChristophNeural | Male | de-DE | Microsoft Christoph Online (Natural) - German (Germany) | Yes |
+| edge | de-DE-TanjaNeural | Female | de-DE | Microsoft Tanja Online (Natural) - German (Germany) | Yes |
 | edge | el-GR-AthinaNeural | Female | el-GR | Microsoft Athina Online (Natural) - Greek (Greece) | Yes |
 | edge | el-GR-NestorasNeural | Male | el-GR | Microsoft Nestoras Online (Natural) - Greek (Greece) | Yes |
 | edge | en-AU-NatashaNeural | Female | en-AU | Microsoft Natasha Online (Natural) - English (Australia) | Yes |

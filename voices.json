@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "source": "Microsoft Edge via edge-tts; Kokoro via the configured upstream ONNX voice pack",
-  "count": 376,
+  "count": 372,
   "counts_by_engine": {
-    "edge": 322,
+    "edge": 318,
     "kokoro": 54
   },
   "voices": [
@@ -879,25 +879,10 @@
     },
     {
       "engine": "edge",
-      "short_name": "de-DE-AmalaNeural",
-      "gender": "Female",
-      "locale": "de-DE",
-      "friendly_name": "Microsoft Amala Online (Natural) - German (Germany)",
-      "content_categories": [
-        "General"
-      ],
-      "voice_personalities": [
-        "Friendly",
-        "Positive"
-      ],
-      "supported": true
-    },
-    {
-      "engine": "edge",
-      "short_name": "de-DE-ConradNeural",
+      "short_name": "de-DE-ChristophNeural",
       "gender": "Male",
       "locale": "de-DE",
-      "friendly_name": "Microsoft Conrad Online (Natural) - German (Germany)",
+      "friendly_name": "Microsoft Christoph Online (Natural) - German (Germany)",
       "content_categories": [
         "General"
       ],
@@ -909,55 +894,10 @@
     },
     {
       "engine": "edge",
-      "short_name": "de-DE-FlorianMultilingualNeural",
-      "gender": "Male",
-      "locale": "de-DE",
-      "friendly_name": "Microsoft FlorianMultilingual Online (Natural) - German (Germany)",
-      "content_categories": [
-        "General"
-      ],
-      "voice_personalities": [
-        "Friendly",
-        "Positive"
-      ],
-      "supported": true
-    },
-    {
-      "engine": "edge",
-      "short_name": "de-DE-KatjaNeural",
+      "short_name": "de-DE-TanjaNeural",
       "gender": "Female",
       "locale": "de-DE",
-      "friendly_name": "Microsoft Katja Online (Natural) - German (Germany)",
-      "content_categories": [
-        "General"
-      ],
-      "voice_personalities": [
-        "Friendly",
-        "Positive"
-      ],
-      "supported": true
-    },
-    {
-      "engine": "edge",
-      "short_name": "de-DE-KillianNeural",
-      "gender": "Male",
-      "locale": "de-DE",
-      "friendly_name": "Microsoft Killian Online (Natural) - German (Germany)",
-      "content_categories": [
-        "General"
-      ],
-      "voice_personalities": [
-        "Friendly",
-        "Positive"
-      ],
-      "supported": true
-    },
-    {
-      "engine": "edge",
-      "short_name": "de-DE-SeraphinaMultilingualNeural",
-      "gender": "Female",
-      "locale": "de-DE",
-      "friendly_name": "Microsoft SeraphinaMultilingual Online (Natural) - German (Germany)",
+      "friendly_name": "Microsoft Tanja Online (Natural) - German (Germany)",
       "content_categories": [
         "General"
       ],
